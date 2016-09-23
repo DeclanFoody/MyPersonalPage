@@ -1,0 +1,103 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+  background:black;
+  color:white;
+}
+ .nav-bar {
+    width: 76em;
+    height: 6em;
+    background: #00B0FF;
+    position: fixed;
+    border-radius:0.25em;  
+ }
+
+#my-logo {
+    width: 5em;
+    height: 4em;
+    background:white;
+    margin-top: 1em;
+    margin-left: 1em;
+    display:inline-block;
+    position:inherit;
+    border-radius:0.25em;
+}
+.othersections {
+  width: 40em;
+  height: 4em;
+  background:inherit;
+  margin-top:1em;
+  margin-left:35em;
+  position: inherit;
+}
+.content {
+  margin-top:1em;
+  float:left;
+  width:76em;
+  background:#212121;
+  border-radius:0.25em;
+}
+.welcome {
+  background: #212121;
+  font-size: 20px;
+  text-align: center;
+}
+.about  {
+  background:inherit;
+  text-align: center;
+}
+.headings {
+  display:inline;
+  background:inherit;
+  padding:1em;
+}
+.slider {
+  height:20em;
+  width:76em;
+  background:blue;
+  border-radius:0.25em;
+  float:left;
+  margin-top:7em;
+}
+.footer {
+  background:white;
+  width: 76em;
+  border-radius:0.25em;
+  padding:1em;
+  color:black;
+  text-align: center;
+  margin-top: 1em;
+  display:block;
+}
+
+svg {
+  background:inherit;
+  padding-left:0.5em;
+  margin-top:0.5em;
+  border-radius:0.25em;
+  
+}
+.mountain {
+  background:red;
+}
+.othersectionheaders {
+  background:inherit;
+  display:inline;
+  margin: 1em;
+  font-family: monospace;
+}
+
+
