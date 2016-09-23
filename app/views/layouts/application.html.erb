@@ -1,23 +1,32 @@
 <!DOCTYPE html>
+
 <html>
+
   <head>
+    
     <title>Declan</title>
+
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+ 
   </head>
 
   <body>
+
   <div class= "container">
     
     <div class = "nav-bar">
     
-      <div id ="my-logo"><%= svg('mountain') %> </div>
+      <div id ="my-logo"><a href="/"><%= svg('mountain') %> </a></div>
       
       <div class ="othersections">
+        
         <div class ='othersectionheaders'> <h2 class= "headings"> projects </h2><%= svg('mac')%> </div>
         
         <div class ='othersectionheaders'> <a class="page-scroll" href="/miscellaneous"><h2 class= "headings"> misc.</h2><%= svg('moto')%> </div></a>

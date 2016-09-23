@@ -67,7 +67,7 @@ a {
 }
 .welcome {
   background: #212121;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   font-family:monospace;
 }
@@ -82,11 +82,22 @@ a {
 }
 .slider {
   height:20em;
-  width:76em;
+  width:70em;
   background:blue;
   border-radius:0.25em;
   float:left;
-  margin-top:10em;
+  margin-top:8em;
+  margin-left:3em;
+}
+
+.slide {
+  height:15em;
+  width:50em;
+  background: white;
+  z-index:1;
+  margin:2.5em;
+  margin-left:8em;
+  border-radius:0.25em;
 }
 .footer {
   background:white;
