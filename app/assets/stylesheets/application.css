@@ -17,12 +17,27 @@
   background:black;
   color:white;
 }
+a {
+  text-decoration: none;
+  background: inherit;
+
+}
+.container  {
+  background:black; 
+  position:fixed; 
+  z-index: 1;
+  margin-top: -1em;
+  width:76em;
+  height:9em;
+}
+
  .nav-bar {
     width: 76em;
     height: 6em;
     background: #00B0FF;
     position: fixed;
     border-radius:0.25em;  
+    margin-top: 1em;
  }
 
 #my-logo {
@@ -91,11 +106,10 @@ svg {
   padding-left:0.5em;
   margin-top:0.5em;
   border-radius:0.25em;
+  z-index: -1;
   
 }
-.mountain {
-  background:red;
-}
+
 .othersectionheaders {
   background:inherit;
   display:inline;
@@ -103,4 +117,8 @@ svg {
   font-family: monospace;
 }
 
+.contact  {
+  height:20em;
+  background:blue;
+}
 

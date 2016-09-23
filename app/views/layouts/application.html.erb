@@ -11,17 +11,29 @@
   </head>
 
   <body>
-  <div class = "nav-bar">
-    <div id ="my-logo"><%= svg('mountain') %></div>
-    <div class ="othersections">
-      <div class ='othersectionheaders'> <h2 class= "headings"> projects </h2><%= svg('mac')%> </div>
-      <div class ='othersectionheaders'> <h2 class= "headings"> misc.</h2><%= svg('moto')%> </div>
-      <div class='othersectionheaders'><h2 class= "headings">contact </h2> <%= svg('phone') %></div>
+  <div class= "container">
+    
+    <div class = "nav-bar">
+    
+      <div id ="my-logo"><%= svg('mountain') %> </div>
+      
+      <div class ="othersections">
+        <div class ='othersectionheaders'> <h2 class= "headings"> projects </h2><%= svg('mac')%> </div>
+        
+        <div class ='othersectionheaders'> <a class="page-scroll" href="/miscellaneous"><h2 class= "headings"> misc.</h2><%= svg('moto')%> </div></a>
+        
+        <div class='othersectionheaders'><h2 class= "headings">contact </h2> <%= svg('phone') %></div>
+      
+      </div>
+    
     </div>
+  
   </div>
+
     <%= yield %>
 
- <%= render 'layouts/footer' %>
+    <%= render 'layouts/footer' %>
+  
   </body>
 
 </html>
