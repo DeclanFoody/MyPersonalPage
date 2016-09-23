@@ -7,4 +7,5 @@ def svg(name)
   return File.read(file_path).html_safe if File.exists?(file_path)
   '(not found)'
 end
+
 end
