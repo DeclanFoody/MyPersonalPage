@@ -83,7 +83,7 @@ a {
 .slider {
   height:20em;
   width:70em;
-  background:blue;
+  background:#304FFE;
   border-radius:0.25em;
   float:left;
   margin-top:8em;
@@ -96,7 +96,7 @@ a {
   background: white;
   z-index:1;
   margin:2.5em;
-  margin-left:8em;
+  margin-left:9em;
   border-radius:0.25em;
 }
 .footer {
@@ -133,4 +133,42 @@ svg {
   height:20em;
   background:blue;
 }
+.arrow-left {
+  height:3em;
 
+}
+.arrow-right  {
+  height:3em;
+  
+}
+.instagram {
+  display:inline;
+  max-width:8em;
+  max-height: 8em;
+  background:white;
+  margin-top:2em;
+}
+.instagram-pic {
+  background:black;
+  margin: 2em;
+  display: inline;
+  color: black;
+  width:5em;
+  border-radius:0.25em;
+  z-index:1;
+}
+.instagram-caption {
+  margin-top:0.25em;
+  background:white;
+  color:black;
+  width:5em;
+  display:inline;
+  margin-left:-9em;
+}
+.body {
+  width:76em;
+  background:blue;
+  height:100em;
+  z-index:0;
+  display: inline;
+}

@@ -1,7 +1,35 @@
 <div class = 'body'>
   
-  <h1>Miscellaneous/  Subtle Brag</h1>
+  <% @results.each do |instagram| %>
+
+  <div class= 'instagram'>
+
+    <div class = 'instagram-pic'>  
+    
+      <a href="<%= instagram.link %>" data-largesrc="<%= instagram.images.standard_resolution.url %>" data-title="@<%= instagram.user.username %>" >
+    
+        <%= image_tag instagram.images.standard_resolution.url %>
+    
+      </a>
+
+      <% if instagram.caption %>
+      <div class ='instagram-caption'>
+
+        <h1 class ='instagram-caption'><%= caption = instagram.caption.text %> <%= instagram.likes["count"]%></h1>
+    
+      <% end %>
+    
+      </div>
+    </div>
+  </div>
+      
+  <!-- <div class="instagram-caption">
+    
+  </div>
   
-  <p>Here i will have some links to some cool insta shit for example of my prowess with apis, maybe maps just to show current location and proficiency with maps</p>
+ -->  <% end %>
+
+
 
 </div>
+
